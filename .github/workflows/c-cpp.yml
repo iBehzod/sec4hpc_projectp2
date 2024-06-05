@@ -115,4 +115,5 @@ jobs:
 
       - name: Submit job to SLURM
         run: |
+          ssh-keygen -f "/home/runner/.ssh/known_hosts" -R "***"
           ssh ${{ secrets.CLUSTER_USERNAME }}@${{ secrets.CLUSTER_HOST }} "cd /g100/home/usertrain/${{ secrets.CLUSTER_USERNAME }} && sbatch job.sh"
