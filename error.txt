@@ -1,0 +1,6 @@
+ 
+Create tmp directory SINGULARITY_TMPDIR = /scratch_local/a08trb52/singularity_tmp
+Create cache directory SINGULARITY_CACHEDIR = /scratch_local/a08trb52/singularity_cache
+[mpiexec@login10] HYDU_create_process (utils/launch/launch.c:74): execvp error on file srun (No such file or directory)
+slurmstepd: error: *** JOB 13654779 ON login10 CANCELLED AT 2024-06-05T14:52:29 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 13654784 ON login10 CANCELLED AT 2024-06-05T14:53:29 DUE TO TIME LIMIT ***
